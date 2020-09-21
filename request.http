@@ -1,5 +1,5 @@
 
-@host = http://[::1]:3000
+@host = https://testdbuv.herokuapp.com
 
 GET {{host}}/basedatos/consultatotalpacientes
 
@@ -8,8 +8,10 @@ POST {{host}}/basedatos/insertarpacientes
 Content-Type: application/json
 
 {
-    "id":"1234567",
-    "nombre":"name"
+    
+    "nombre":"name1",
+    "apellido":"lastname1",
+    "numid":"1234"
 }
 
 ###
