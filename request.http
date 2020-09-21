@@ -1,0 +1,31 @@
+
+@host = http://[::1]:3000
+
+GET {{host}}/basedatos/consultatotalpacientes
+
+###
+POST {{host}}/basedatos/insertarpacientes
+Content-Type: application/json
+
+{
+    "id":"1234567",
+    "nombre":"name"
+}
+
+###
+POST {{host}}/actualizadatos
+Content-Type: application/json
+
+{
+    "id":"12345",
+    "nombre":"names",
+    "apellido":"lastname"
+}
+
+###
+DELETE {{host}}/borrar
+Content-Type: application/json
+
+{
+"id":"1234567"
+}
