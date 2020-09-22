@@ -4,14 +4,14 @@
 GET {{host}}/basedatos/consultatotalpacientes
 
 ###
-POST {{host}}/basedatos/insertarpacientes
+PUT {{host}}/basedatos/insertarpacientes
 Content-Type: application/json
 
 {
     
-    "nombre":"name1",
-    "apellido":"lastname1",
-    "numid":"1234"
+    "nombre":"name2",
+    "apellido":"lastname2",
+    "numid":"1235"
 }
 
 ###
