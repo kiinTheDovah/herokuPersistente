@@ -9,25 +9,25 @@ Content-Type: application/json
 
 {
     
-    "nombre":"name2",
-    "apellido":"lastname2",
-    "numid":"1235"
+    "nombre":"name1",
+    "apellido":"lastname1",
+    "numid":"1234"
 }
 
 ###
-POST {{host}}/actualizadatos
+POST {{host}}/basedatos/actualizadototalpacientes
 Content-Type: application/json
 
 {
-    "id":"12345",
     "nombre":"names",
-    "apellido":"lastname"
+    "apellido":"last",
+    "numid":"1234"
 }
 
 ###
-DELETE {{host}}/borrar
+DELETE {{host}}/basedatos/borradototalpacientes
 Content-Type: application/json
 
 {
-"id":"1234567"
+"numid":"1234"
 }
