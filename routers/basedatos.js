@@ -2,6 +2,7 @@ const { Pool } = require("pg");
 const Router = require("express-promise-router");
 
 const pool = new Pool({
+  // credentials from heroku
   user: "xnilnafysbemkw",
   host: "ec2-184-73-249-9.compute-1.amazonaws.com",
   database: "d2g2hsl8s8oq35",
